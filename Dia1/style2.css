@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;  /* No entiendo por qué es 600 si las imagenes las he puesto a 200px, y me salen lineas de 4*/
+    justify-content: space-evenly;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px; /*Si el contenedor mide 600px /200px = 3 por línea en vez de 4 como salen */
+    max-height: 200px;  /*He ido ajustando los valores para que saliran 4*/
+    overflow: hidden;
+    cursor: pointer;
+}
+.imagen:hover {
+    cursor: pointer;
+    -webkit-transform:scale(1.8);
+    transform:scale(1.8);
+}
