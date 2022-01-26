@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    border: 5px solid grey;
+    border-radius: 5px;
+    width: 500px;
+    height: 415px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+#header__principal{
+    border: 3px solid rgb(14, 235, 14);
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+
+}
+nav{
+    border: 3px solid red;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    width: 10;
+}
+
+#block{
+    display: flex;
+    flex-direction: row;
+    height: 305px;
+    border: none;
+}
+
+article{
+    border: 3px solid blue;
+    border-radius: 5px;
+    width: 75%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#article__header{
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 0px 152px 0px;
+}
+
+section{
+    border: 3px solid rgb(192, 122, 192);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 0px 1px 0px;
+}
+#footer__article{
+    border: 3px solid yellow;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+aside{
+    border: 3px solid orange;
+    border-radius: 5px;
+    width: 25%;
+    height: 300px;
+    padding: 1px;
+    justify-content: space-evenly;
+}
+
+div{
+    border: 3px solid rgb(77, 175, 221);
+    border-radius: 5px;
+    height: 47%;
+
+}
+
+#article__footer{
+    height: 5px;
+   display: flex;
+}
+
+
+footer{
+    border: 3px solid yellow;
+    border-radius: 5px;
+    padding: 5px;
+
+}
