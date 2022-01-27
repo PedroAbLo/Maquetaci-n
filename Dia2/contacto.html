@@ -8,18 +8,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class = "section">
+
+    <section class = "sectionContacto">
+
         <header class = "header">
             <a href="#" class = "logo"><img src = "codenotch.png"></a>
           
             <nav class = "navegador">
                 <a class = "menus" href ="index.html">Home</a>
                 <a class = "menus" href ="tarifas.html">Tarifas</a>
-                <a class = "menus" href ="#">¿Por qué Codenotch?</a>
+                <a class = "menus" href ="porque.html">¿Por qué Codenotch?</a>
                 <a class = "menus" href ="contacto.html">Contacto</a>
             </nav>
         </header>
+
+        <div class = "contenidoContacto">
+            <div class = "textBoxContacto">
+                <h2 class = "textBoxContacto__h2">Habla con un experto y<br> reserva tu plaza</h2>
+                <h3><br>¿Dudas? Normal. Déjanos tus datos y uno de nuestros asesores se <br>
+                    pondrá en contacto contigo. Sin spam, sin compromiso.</h3>
+             </div>
+                    <br>
+                    <form id="formulario1" name="formulario1"  >                           
+                                <h3>Datos personales</legend>
+                                <label for="nombre">Nombre:</label><br>
+                                    <input type="text" name="nombre" id="nombre" placeholder="Introduzca su Nombre"><br>
+                                <label for="apellidos">Apellidos:</label><br>
+                                    <input type="text" name="apellidos" id="apellidos" placeholder="Introduzca sus Apellidos"><br>
+                                <label for="dni">DNI:</label><br>
+                                    <input type="text" name="dni" id="dni" maxlength="9" placeholder="Introduzca su DNI"><br>
+                                <label for="edad">Edad:</label><br>
+                                    <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+                                <label for="sexo">Sexo:</label><br>
+                                    <select id="sexo" name="sexo">
+                                        <option value="X" selected="selected">...</option>
+                                        <option value="M">Másculino</option>
+                                        <option value="F">Femenino</option>
+                                    </select>
+                                                           
+                                <legend>Tu opinión</legend>
+                                <textarea id="opinion" name="opinion" rows="10" cols="50"></textarea>
+                                <br>
+                            
+                            <input class = "boton" type="reset" value="Borrar formulario">&nbsp;&nbsp;&nbsp;&nbsp;<input class = "boton" type="submit" value="Enviar">
+                    </form>
+                </div>	
+            </div>
+        </div>
     </section>
+    <footer class = "footer">
+        <ul class = "footer__lista">
+            <li class = "li"><a class = "links" href="https://twitter.com/CodenotchMAD">Twitter</a></li>
+            <li class = "li"><a class = "links" href="https://www.instagram.com/codenotchmad/?hl=es">Instagram</a></li>
+            <li class = "li"><a class = "links" href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGfKDP-Al9s2gAAAX6ceCa4P0eADrg84mjuvtEhSNG_6QKy7KBBnDdQVhk4tqGDwBsDfWVyuHHh9Qx-Y-WXEzoUzPGWDxfGLAXLOona9KdeZzi_S7VXY15NnmRWyW6_qAJYpdM=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fcodenotch%2F">Linkedin</a></li>
+            <li class = "li"><a class = "links" href="https://www.facebook.com/codenotchMAD/">Facebook</a></li>
+        </ul>
+    </footer>    
+
     
 </body>
 </html>
