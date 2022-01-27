@@ -41,6 +41,7 @@
     padding: 100px 400px;
 }
 
+
 .header{
     position: absolute;
     top: 0;
@@ -51,10 +52,12 @@
     justify-content: space-between;
     align-items: center;
     background-color: blue;
+
 }
 
 .logo{
     width: 80px;      
+
     position: relative;
     max-width: 80px;
 }
@@ -71,6 +74,7 @@
     font-weight: 600;
     margin-left: 40px;
     text-decoration: none;
+
     border-bottom: 5px solid transparent;
     border-right: 10px solid transparent;
     
@@ -112,6 +116,7 @@
     align-items: center;
     width: 33%;
     text-align: justify;
+
 }
 .content{
     position: relative;
@@ -120,6 +125,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .content2{
     width: 500px;
     height: 700px;
@@ -148,6 +154,7 @@
     border-radius: 15px;
     padding-left: 10px;
 }
+
 
 .textBox{
     position: relative;
@@ -279,7 +286,5 @@
   .li:hover ~ li p {
     animation: wave-animation 0.3s infinite;
   }
-
-
 
 
