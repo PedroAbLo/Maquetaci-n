@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Viajes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+    
+    <article class="container">
+        <header class = "header">
+            <a href="#" class="logo"><img class="imagen__logo" src = "logo_large.png"></a>
+          
+            <nav class = "navegador">
+                <a class = "menus" href ="index.html">Home</a>
+                <a class = "menus" href ="#">Tarifas</a>
+                <a class = "menus" href ="#">Foros</a>
+                <a class = "menus" href ="#">Contacto</a>
+            </nav>
+        </header>
+
+        <form class="formulario">
+            <div class="cabecera">
+                <h1 class="cabecera__subtitulo">¡¡Busca tu mejor viaje!!</h1>                
+                <h3 class="cabecera__titulo">Formulario</h3>
+            </div>
+
+            <div class="input">
+                <label for="nombre">Nombre: <input class="input_text" id="name" placeholder="Introduce tu nombre:"></label>
+                <label for="origen">Origen:  <input class="input_text" id="origen" placeholder="¿De donde eres?:"></label>                   
+                <label for="destino">Destino: <input class="input_text" id="destino" placeholder="¿Donde quieres ir?:"></label>                    
+                <label for="personas">Nº personas: <input class="input_text" id="cantidad" placeholder="Nº personas:"></label>                    
+                <label for="fecha">Fecha: <input class="input_text" id="fecha" placeholder="Fecha:"></label>                    
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="condiciones">
+                <label for="condiciones"> Aceptar términos y condicones </label>
+            </div>
+
+            <div class="botones__formulario">
+            <button onclick="getInfo()" class="boton" type="reset"> Más información </button> 
+            <button onclick="filtrado()" class="boton" type="button"> Filtrado </button> 
+            </div>
+
+            <div class="resultado" id="resultado">
+                <table id = "tabla">
+
+                </table>
+
+            </div>
+        </form>
+
+        <div class="descripcion">
+            <div class="descripcion__titulo">
+                <h2 id="marca">¡¡Agencia Viajes!!</h2>
+                <h3 class="eslogan">Te acercamos cualquier parte del mundo.</h3>
+            </div>
+            <div class="descripcion__texto">
+                <p>Lorem fistrum a gramenawer quietooor a gramenawer jarl. Te va a hasé pupitaa jarl tiene musho peligro a wan te voy a borrar el cerito. Diodeno no te digo trigo por no llamarte Rodrigor ese que llega pecador por la gloria de mi madre ahorarr se calle ustée llevame al sircoo me cago en tus muelas me cago en tus muelas. Qué dise usteer hasta luego Lucas papaar papaar torpedo está la cosa muy malar llevame al sircoo. Al ataquerl fistro jarl diodeno torpedo.
+                    Por la gloria de mi madre te voy a borrar el cerito fistro ahorarr no puedor a peich la caidita. Papaar papaar pecador por la gloria de mi madre está la cosa muy malar papaar papaar torpedo llevame al sircoo qué dise usteer la caidita. Caballo blanco caballo negroorl por la gloria de mi madre fistro diodeno mamaar te va a hasé pupitaa llevame al sircoo fistro sexuarl va usté muy cargadoo. Quietooor te voy a borrar el cerito ese hombree me cago en tus muelas. Condemor tiene musho peligro la caidita está la cosa muy malar.</p>
+            </div>
+        </div>
+
+        <div class="cuerpo">
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="1.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Australia</h2>
+                        <p class = "texto__info">Australia es el país más extenso de Oceanía y es un destino reconocido por sus atractivos turísticos, históricos y culturales. En Australia podremos encontrar entretenimiento vinculado a la música, teatro, danza, pintura y artes manuales. Camberra es la capital de Australia y sobresale junto a otras ciudades de Australia como Sidney, Perth, Melbourne, y Brisbane. Si Australia es tu próximo destino de viaje, en Viajejet te entregamos una completa guía de viajes de Au"oferta"</p>
+                    </div>
+                    <button class ="oferta"> 1.100€ </button>
+                    <br>
+                </div>
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="2.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Japón</h2>
+                        <p class = "texto__info">Dormir en un ryokan, relajarse en un onsen, contemplar el monte Fuji , ensimismarse con las luces de Tokio , recorrer los templos de Kioto , descender las pistas de esquí de Hokkaido , aventurarse a descubrir el silencio y la paz de la naturaleza japonesa mientras hacemos el Kumano Kodo o degustar la variada gastronomía local del país con más estrellas Michelin del mundo son solo algunas de las maravillosas experiencias que ** Japón ** puede ofrecerte.</p>
+                    </div>
+                    <button class ="oferta"> Solo 580€ </button>
+                    <br>
+                </div>
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="3.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Indonesia</h2>
+                        <p class = "texto__info">Indonesia es el país más pintoresco del sudeste asiático que nunca deja de sorprender a sus huéspedes con numerosos lugares de interés natural y cultural. Al describir las tradiciones y el estilo de vida de Indonesia, es simplemente imposible dejar de mencionar su diversidad. </p>
+                    </div>
+                    <button class ="oferta"> Solo 770€ </button>
+                    <br>
+                </div>
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="5.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Tailandia</h2>
+                        <p class = "texto__info">Tailandia es el país asiático pionero en la industria del turismo y a estas alturas del siglo XXI cuenta con la mayor y más consolidada infraestructura de dicho sector en el continente, y de hecho se encuentra ya entre los diez destinos más visitados del planeta.</p>
+                    </div>
+                    <button class ="oferta"> Solo 458€ </button>
+                    <br>
+                </div>
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="6.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Albania</h2>
+                        <p class = "texto__info">Albania, ubicada en el sureste de Europa, es una tierra de lagos, valles, antiguas ruinas romanas, monasterios históricos, pueblos encantadores y deliciosa comida y vino. Es un lugar perfecto para visitar si está buscando una experiencia fuera de lo común y menos turística que otros países europeos.</p>
+                    </div>
+                    <button class ="oferta"> Solo 240€ </button>
+                    <br>
+                </div>
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="7.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Cánada</h2>
+                        <p class = "texto__info">Desde bellas ciudades, hasta increíbles paisajes naturales, en Canadá habrá lugares que te estremecerán por su inimaginable belleza y te harán sentir nuevas sensaciones, de esas que son difíciles de describir, sino que hay que vivirlas para poder tener un entendimiento.</p>
+                    </div>
+                    <button class ="oferta"> Solo 560€ </button>
+                    <br>
+                </div>
+                <div class = "card">
+                    <figure class = "imagenes">
+                        <img class = "imagen" src="8.png">
+                    </figure>
+                    <div class = "texto">
+                        <h2 class = "texto__titulo">Rusia</h2>
+                        <p class = "texto__info">Su principal destino turístico es Moscú, la capital. El monumento más visitado es la Plaza Roja, donde están el Kremlin, residencia oficial del presidente, la Catedral de San Basilio, el Mausoleo de Lenin y el Museo de Historia.
+                            Otros lugares para visitar son el Teatro Bolshoi, el Parque Gorki, el Palacio de Ostankino y el Monasterio de Novodevichi. También la iglesia de la Ascensión en Kolomenskoe, que es Patrimonio de la Humanidad.</p>
+                    </div>
+                    <button class ="oferta"> Solo 900€ </button>
+                    <br>
+                </div>
+        </div>
+    </article>
+
+    <script src="funciones.js"></script>
+
+</body>
+</html>
